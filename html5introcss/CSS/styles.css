@@ -5,3 +5,52 @@ html{
 h1,h2,h3{
     color: #03F558;
 }
+
+body{
+    background-color: blueviolet;
+    width: 960px;
+    margin: 20px auto;
+} 
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    display: block;
+    margin: 20px auto;
+    width: 30%;
+}
+
+nav {
+    background-color: orangered;
+    padding: 20px;
+    text-align: center;
+}
+nav a {
+    color: blueviolet;
+    font-size: 28px;
+    margin: 0 20px;
+}
+nav a:hover {
+    color: rgb(183, 86, 16);
+    text-decoration: none;
+}
+
+main{
+    padding: 20px;
+}
+
+main img {
+    display: block;
+    margin: 20px auto;
+    width: 35%; 
+}
+
+footer {
+    background-color: #03F558;
+    text-align: center;
+    padding: 40px 0;
+
+}
