@@ -1,0 +1,51 @@
+body{
+    background-color: darkorange;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+#container{
+    background-color: black;
+}
+
+nav {
+    background-color: chartreuse;
+    padding: 2px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+
+}
+
+nav li{
+    display: block;
+    border-bottom: 2px solid greenyellow;
+}
+
+nav li a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background-color: coral;
+    color: rgb(46, 117, 46);
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 5px 0;
+
+}
+
+nav li a:hover{
+    background-color: black;
+    color: yellowgreen;
+    border-color: green;
+    
+
+}
